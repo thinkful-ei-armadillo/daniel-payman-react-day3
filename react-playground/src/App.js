@@ -15,7 +15,7 @@ class App extends Component {
         <HelloWorld name="helloWorld" />
         <Bomb />
         <RouletteGun bulletInChamber={8} />
-        <Accordion />
+        <Accordion sections={state.sections}/>
       </div>
     );
   }

@@ -5,25 +5,27 @@ exports[`HelloWorld component renders the UI as expected 1`] = `
   className="helloWorld"
 >
   <button
-    className="world-button"
+    className="world"
     onClick={[Function]}
   >
     World
   </button>
   <button
-    className="friend-button"
+    className="friend"
     onClick={[Function]}
   >
     Friend
   </button>
   <button
-    className="react-button"
+    className="react"
     onClick={[Function]}
   >
     React
   </button>
   <p>
-    Hello, world!
+    Hello, 
+    world
+    !
   </p>
 </div>
 `;
