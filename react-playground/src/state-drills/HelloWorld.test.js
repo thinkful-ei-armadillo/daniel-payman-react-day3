@@ -9,4 +9,11 @@ describe('HelloWorld component', () => {
     ReactDOM.render(<HelloWorld />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
+
+  it('renders the UI as expected', () => {
+    const tree = renderer
+      .create(<HelloWorld name="helloWorld"/>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();  
+  });
 });
